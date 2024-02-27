@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SamallCardComponent } from "./Components/samall-card/samall-card.component";
+import { SmallCardComponent } from "./Components/small-card/small-card.component";
 import { BigCardComponent } from "./Components/big-card/big-card.component";
 import { MenuTitleComponent } from "./Components/menu-title/menu-title.component";
 import { HomeComponent } from "./Pages/home/home.component";
@@ -12,7 +12,7 @@ import { HomeComponent } from "./Pages/home/home.component";
     styleUrl: './app.component.css',
     imports: [
       RouterOutlet, 
-      SamallCardComponent,
+      SmallCardComponent,
       BigCardComponent,
       MenuTitleComponent,
       HomeComponent

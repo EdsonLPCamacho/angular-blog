@@ -1,0 +1,15 @@
+.container__menuBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+.container__menuBar > li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+   
+}
